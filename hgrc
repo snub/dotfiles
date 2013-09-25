@@ -1,7 +1,8 @@
 [extensions]
-hgext.purge =
-hgext.graphlog =
+graphlog =
 color =
+pager =
+purge =
 
 [color]
 mode = ansi
@@ -20,4 +21,9 @@ diff.deleted = red
 diff.inserted = green
 diff.changed = white
 diff.trailingwhitespace = bold red_background
+
+[pager]
+pager = less -R
+quiet = True
+attend = diff,log,qdiff,blame,annotate,pdiff,glog
 

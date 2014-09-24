@@ -61,7 +61,7 @@ set tm=500
 syntax enable
 
 " Color scheme
-colorscheme desert
+colorscheme solarized
 
 " Background color
 set background=dark
